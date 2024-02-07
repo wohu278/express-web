@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form .datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  border-radius: 20px;
+  background-color: #eceeef;
+  padding: 20px;
+  width: 500px;
+  height: 380px;
+}
+.form .datos form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.form .datos form input {
+  border: none;
+  height: 40px;
+  border-radius: 10px;
+  text-align: center;
+}
+.form .datos form button {
+  background-color: #4EA6F8;
+  border: none;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.form .datos form button:hover {
+  background-color: #2f6394;
+  height: 30px;
+  width: 70px;
+}/*# sourceMappingURL=static.css.map */

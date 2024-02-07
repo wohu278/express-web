@@ -1,0 +1,1 @@
+*{margin:0;padding:0;box-sizing:border-box}.menu{display:flex;height:70px;background-color:#4EA6F8;padding:20px}.menu a{color:white;text-decoration:none}.menu .izquierda{width:60%;justify-content:flex-start;margin-left:270px}.menu .derecha{display:flex;gap:20px;width:40%}

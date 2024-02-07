@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/static.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="form">
+        <div class="datos">
+            <h1>Nuevo libro</h1>
+            <br>
+            <form name="nuevoLibro" action="/newbook" method="post">
+                <input name="nombre" type="text" placeholder="Nombre">
+                <input name="autor" type="text" placeholder="Autor">
+                <input name="portada" type="text" placeholder="URL portada">
+                <input name="descripcion" type="text" placeholder="Descripcion">
+                <button>Añadir</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

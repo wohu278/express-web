@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <div class="general">
+        <% for(let i = 0; i<libros.length; i++) {%>
+            <div class="libro">
+                <div class="titulo"><span><%= libros[i].nombre %></span></div>
+                <img src="<%= libros[i].portada %>">
+                <span class="descripcion"><%= libros[i].descripcion %></span>
+                <form method="delete" action="/delete/<%= libros[i].id %>">
+                    <button>Eliminar</button>
+                </form>
+            </div>
+        <% } %>
+    </div>
+</body>
+</html>
